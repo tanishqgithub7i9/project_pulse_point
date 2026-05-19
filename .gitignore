@@ -1,0 +1,51 @@
+# .gitignore — Files to EXCLUDE from GitHub
+# ==========================================
+# WHY THIS FILE EXISTS:
+#   When you push to GitHub, you do NOT want to upload everything.
+#   This file tells Git: "ignore these files/folders".
+#   Rule of thumb: ignore things that are (1) auto-generated,
+#   (2) contain secrets, or (3) too large.
+
+# ── Python Caches ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# ── Virtual Environment (never commit this!) ──────────────────────────────────
+venv/
+env/
+.env/
+ENV/
+
+# ── Database Files (large, auto-regenerated) ──────────────────────────────────
+# NOTE: We DO keep the database schema files (.py), just not the .db data file
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Exported Data Files ───────────────────────────────────────────────────────
+*.csv
+exports/
+
+# ── Secret Keys & Environment Variables ──────────────────────────────────────
+.env
+*.key
+secrets.py
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+pipeline.log
+
+# ── Jupyter Notebook Checkpoints ──────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Generated Charts (viewers run notebook to see them) ───────────────────────
+chart_*.png
+
+# ── OS & IDE Files ────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

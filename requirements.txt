@@ -1,0 +1,32 @@
+# requirements.txt — Project Pulse-Point
+# =========================================
+# WHY THIS FILE EXISTS:
+#   This is the standard way to list all Python packages your project needs.
+#   Anyone who clones your GitHub repo just runs:  pip install -r requirements.txt
+#   and they have EVERYTHING they need to run your project. Professional!
+#
+# Install all at once with:  pip install -r requirements.txt
+
+# ── Data Collection ───────────────────────────────────────────────────────────
+requests>=2.28.0            # Makes HTTP requests to APIs (CoinGecko, RSS feeds)
+feedparser>=6.0.10          # Parses RSS/Atom news feeds easily
+
+# ── NLP & Sentiment Analysis ──────────────────────────────────────────────────
+textblob>=0.18.0            # Natural Language Processing — sentiment scoring
+
+# ── Data Manipulation ─────────────────────────────────────────────────────────
+pandas>=2.0.0               # THE data analysis library — DataFrames, SQL queries
+numpy>=1.24.0               # Numerical computing — arrays, statistics, math
+
+# ── Data Visualization ────────────────────────────────────────────────────────
+matplotlib>=3.7.0           # Foundation plotting library
+seaborn>=0.12.0             # Beautiful statistical charts built on matplotlib
+plotly>=5.15.0              # Interactive charts for the dashboard
+
+# ── Dashboard ─────────────────────────────────────────────────────────────────
+streamlit>=1.25.0           # Turns Python scripts into web dashboards instantly
+
+# ── Jupyter Notebooks ─────────────────────────────────────────────────────────
+jupyter>=1.0.0              # Jupyter Notebook environment
+nbformat>=5.9.0             # Programmatically create .ipynb notebook files
+ipykernel>=6.24.0           # Python kernel for Jupyter
