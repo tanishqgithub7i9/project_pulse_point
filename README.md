@@ -181,10 +181,8 @@ project_pulse_point/
 
 ## 👤 Author
 
-**[Your Name]** — Aspiring Data Analyst
+**[Tanishq Singh]** — Aspiring Data Analyst
 
-- GitHub: [@your_username](https://github.com/your_username)
-- LinkedIn: [Your Name](https://linkedin.com/in/your_profile)
 
 ---
 
